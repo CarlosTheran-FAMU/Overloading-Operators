@@ -27,4 +27,19 @@ class BookCollection
         );
     }
 
+    // Friend declaration for <<
+    friend ostream& operator<<(ostream& out, const BookCollection& arr);
 };
+
+// Definition of <<
+ostream& operator<<(ostream& out, const BookCollection& arr) {
+    out << "[";
+    for (int i = 0; i < 4; i++) {
+        out << arr.section[i];
+        if (i < 3) {
+            out << ", ";
+        }
+    }
+    out << "]";
+    return out;
+}

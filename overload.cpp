@@ -10,4 +10,6 @@ int main()
    BookCollection SectionB(2,3,5,7);
 
    BookCollection SectionC = SectionA + SectionB;
+
+   cout<< SectionC;
 }
