@@ -1,3 +1,5 @@
+//This is an example abot how to commit and push my code
+
 #include<iostream>
 
 using namesapce std;
