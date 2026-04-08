@@ -1,8 +1,6 @@
-//This is an example abot how to commit and push my code
-
 #include<iostream>
 
-using namesapce std;
+using namespace std;
 
 
 class BookCollection 
@@ -25,17 +23,8 @@ class BookCollection
             section[0] + other.section[0],   
             section[1] + other.section[1],   
             section[2] + other.section[2],   
-            section[3] + other.section[3],
+            section[3] + other.section[3]
         );
     }
 
 };
-
-
-// sectionA = [4,5,6,7] 
-// sectionB = [1,2,3,4]
-
-
-// SectionC = sectionA + sectionB
-
-// SectionC = [5,7,9,11]

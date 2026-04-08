@@ -1,13 +1,13 @@
 #include <iostream>
 #include "BookCollection.h"
 
-using namesapce std;
+using namespace std;
 
 
 int main()
 {
-   BookCollation SectionA(4,5,6,7);
-   BookCollation SectionB(2,3,5,7);
+   BookCollection SectionA(4,5,6,7);
+   BookCollection SectionB(2,3,5,7);
 
-   SectionC = SectionA + SectionB;
+   BookCollection SectionC = SectionA + SectionB;
 }
